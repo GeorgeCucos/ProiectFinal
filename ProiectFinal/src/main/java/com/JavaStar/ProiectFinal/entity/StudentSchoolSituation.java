@@ -15,8 +15,9 @@ public class StudentSchoolSituation {
     private Student student;
 
 
-    @OneToMany
-    @JoinColumn(name = "course_course_id")
+
+    @ManyToOne
+    @JoinColumn(name = "course_id")
     private Course course;
     private List<Integer> notes;
 

@@ -1,4 +1,9 @@
 package com.JavaStar.ProiectFinal.repository;
 
-public class ProfessorRepository {
+import com.JavaStar.ProiectFinal.entity.Professor;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface ProfessorRepository extends JpaRepository<Professor,Long> {
 }
