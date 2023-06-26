@@ -6,8 +6,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class ProiectFinalApplicationTests {
 
+
 	@Test
 	void contextLoads() {
+		System.out.println(1);
 	}
 
 }
